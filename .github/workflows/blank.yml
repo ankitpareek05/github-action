@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       ENVIRONMENT:
-        type: choice
+        type: environment
         description: 'Select ENVIRONMENT'
         options:
         - STG
